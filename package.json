@@ -15,5 +15,8 @@
     "tailwindcss": "^4.1.17",
     "typescript": "~5.9.3",
     "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "@lottiefiles/dotlottie-web": "^0.64.2"
   }
 }
