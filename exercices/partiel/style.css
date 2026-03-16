@@ -1,0 +1,139 @@
+.katana-img{
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+}
+
+.heroSectionImage{
+    display: block;
+    width: 2000px;
+    height: 200px;
+}
+
+.cate-info {
+    background: lightgrey;
+    position: relative;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+
+
+.hidden-text{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s;
+}
+
+
+.cate-info::before{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:0%;
+    background: #8B0000;
+    transition:0.5s;
+    z-index:0;
+}
+
+
+.cate-info h2,
+.cate-info p{
+    position:relative;
+    z-index:1;
+}
+
+
+.cate-info:hover{
+    color:white;
+}
+
+
+.cate-info:hover::before{
+    height:100%;
+}
+
+
+.cate-info:hover .hidden-text{
+    opacity:1;
+    transform: translateY(0);
+}
+
+.description {
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.swiper{
+    position: relative;
+    background: burlywood;
+    transition: background 0.5s;
+}
+
+.swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+
+#circle {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+    background: lightgrey;
+    transition: background 0.5s;
+}
+
+
+.buySection{
+    width:100%;
+    min-height:100vh;
+    background:#e5e5e5;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.buyImage{
+    width:200px;
+    margin:40px ;
+}
+
+.buyText{
+    max-width:700px;
+    font-size:15px;
+    line-height:1.6;
+    margin-bottom:40px;
+
+}
+
+.buyButton{
+    background:black;
+    color:white;
+    border:none;
+    padding:18px 40px;
+    font-size:20px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.buyButton:hover{
+    background:#d62828;
+    transform:scale(1.08);
+
+}

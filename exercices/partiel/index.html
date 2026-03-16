@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Partiel</title>
+    <script type="module" src="./main.ts" async></script>
+  </head>
+  <body>
+    <a href="../../" class="btn btn--back">← Accueil</a>
+
+    <h1>Le katana</h1>
+
+    <img src="/images/bamboo.jpg" class="heroSectionImage">
+
+    <!--     Animation de texte sur le titre     -->
+
+    <div class=" hero grid grid-cols-2 gap-2 items-center min-h-screen px-20">
+
+      <div class="space-y-4">
+        <h2 class="text-5xl font-bold titleSplitText">Katana</h2>
+        <p class="text-gray-600">
+          Ce porte-clé katana japonais se démarquera à coup sûr dans n'importe quel situation ! Fabriqué avec des détails complexes, ce porte-clés parfait pour les Otaku offre un moyen élégant et stylé de garder vos clés en sécurité. Non seulement il est esthétique, mais il offre également une prise en main sûre grâce à son profil mince et sa construction durable.
+        </p>
+      </div>
+
+
+      <div class="flex justify-center">
+        <img src="/images/katanaHero.png" class="w-96">
+      </div>
+
+    </div>
+
+
+    <!--     Transition  CSS sur les cards  -->
+
+    <div class="grid grid-cols-3 gap-5 px-10">
+
+    <div class="cate-info">
+        <h2>Details</h2>
+        <p class="hidden-text" >Si vous aimez les accessoires pratiques, vous allez adorer notre nouvelle collection de porte-clef. Pour une originalité accrue, notre Porte-clef japonais masque vous permettra de garder vos clefs ou votre téléphone à portée de main !</p>
+    </div>
+
+    <div class="cate-info">
+        <h2>Hommage</h2>
+        <p class="hidden-text">Ce petit accessoire évoque la noblesse silencieuse des samouraïs à travers la représentation stylisée d’un katana japonais. Entre symbole et design, il incarne à la fois protection, précision et héritage culturel.</p>
+    </div>
+
+  <div class="cate-info">
+    <h2>Carateristique</h2>
+    <p class="hidden-text">Réalisé en alliage robuste avec une finition soignée, ce mini accessoire allie durabilité et design élégant. Compact, ergonomique et facile à fixer, il s’adapte à vos clés, sacs ou zip. </p>
+  </div>
+</div>
+
+    <!--     Slider     -->
+
+    <h1 class="hero px-20 mt-16 mb-8"> Nos differents katana</h1>
+    <p class="description">Découvrez notre sélection de katanas inspirés de la tradition japonaise, alliant élégance et précision. Que vous soyez collectionneur ou passionné, trouvez le modèle qui correspond à votre style. Qualité, authenticité et design sont au rendez-vous.</p>
+    <div class="swiper katana" id="slider">
+      <div id="circle"></div>
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide"
+             data-background="#E6E8D1"
+             data-circle="#878149">
+          <img src="/images/katana.png" class="katana-img">
+        </div>
+
+        <div class="swiper-slide"
+             data-background="#9D90A4"
+             data-circle="#9D90A4">
+          <img src="/images/katana.png" class="katana-img">
+        </div>
+
+        <div class="swiper-slide"
+             data-background="#ECEDA5"
+             data-circle="#9D9F4F">
+          <img src="/images/katana.png" class="katana-img">
+        </div>
+
+        <div class="swiper-slide"
+             data-background="#285A48"
+             data-circle="#408A71">
+          <img src="/images/katana.png" class="katana-img">
+        </div>
+
+        <div class="swiper-slide"
+             data-background="#D97A2B"
+             data-circle="#F2D479">
+          <img src="/images/katana.png" class="katana-img">
+        </div>
+
+        <div class="swiper-slide"
+             data-background="#89D4FF"
+             data-circle="#44ACFF">
+          <img src="/images/katana.png" class="katana-img">
+        </div>
+
+      </div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+
+    <!--     scrolltelling sur l'image     -->
+
+
+    <section class="buySection">
+      <h1>Pret à acheter</h1>
+
+      <img src="/images/katana4.png" alt="Katana" class="buyImage">
+
+      <p class="buyText">
+        Ajoute une touche de style à tes clés avec nos mini katanas inspirés
+        des plus grands univers manga et gaming. Élégants, détaillés et résistants,
+        ils sont parfaits pour afficher ta passion.
+      </p>
+
+      <button class="buyButton">
+        Acheter maintenant
+      </button>
+
+    </section>
+
+  </body>
+</html>
